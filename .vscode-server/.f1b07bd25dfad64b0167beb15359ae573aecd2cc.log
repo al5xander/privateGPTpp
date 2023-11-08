@@ -1,0 +1,87 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:36981 (IPv4)
+Extension host agent listening on 36981
+
+[11:41:20] 
+
+
+
+
+[11:41:20] Extension host agent started.
+[11:41:20] [127.0.0.1][3498b21b][ManagementConnection] New connection established.
+[11:41:20] [127.0.0.1][232b57d0][ExtensionHostConnection] New connection established.
+[11:41:20] [127.0.0.1][232b57d0][ExtensionHostConnection] <2338243> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[11:46:20] New EH opened, aborting shutdown
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[11:48:02] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[11:48:08] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[11:49:32] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:4000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 4000
+    }
+  ]
+}
+[14:22:18] [127.0.0.1][1ad3bffd][ManagementConnection] New connection established.
+[14:22:18] [127.0.0.1][a0d025ff][ExtensionHostConnection] New connection established.
+[14:22:18] [127.0.0.1][a0d025ff][ExtensionHostConnection] <2660245> Launched Extension Host Process.
+[14:27:18] [127.0.0.1][232b57d0][ExtensionHostConnection] <2338243> Extension Host Process exited with code: 0, signal: null.
+[18:31:13] [127.0.0.1][a0d025ff][ExtensionHostConnection] <2660245> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[18:31:13] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[18:36:13] Last EH closed, shutting down

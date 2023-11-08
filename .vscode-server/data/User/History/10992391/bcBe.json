@@ -1,0 +1,14 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 2,
+    "remote.SSH.remotePlatform": {
+        "vs-c2.cs.uit.no": "linux"
+    }
+}

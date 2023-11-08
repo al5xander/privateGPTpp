@@ -1,0 +1,29 @@
+2023-10-10 10:23:29.685 [info] 
+
+
+
+
+2023-10-10 10:23:29.685 [info] Extension host agent started.
+2023-10-10 10:23:29.700 [info] Started initializing default profile extensions in extensions installation folder. file:///home/agu078/.vscode-server/extensions
+2023-10-10 10:23:29.707 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/agu078/.vscode-server/extensions
+2023-10-10 10:23:29.724 [info] [127.0.0.1][14134217][ManagementConnection] New connection established.
+2023-10-10 10:23:29.759 [info] [127.0.0.1][b530c826][ExtensionHostConnection] New connection established.
+2023-10-10 10:23:29.852 [info] [127.0.0.1][b530c826][ExtensionHostConnection] <2011086> Launched Extension Host Process.
+2023-10-10 10:28:29.667 [info] New EH opened, aborting shutdown
+2023-10-10 11:59:28.228 [info] Getting Manifest... ms-azuretools.vscode-docker
+2023-10-10 11:59:28.404 [info] Installing extension: ms-azuretools.vscode-docker
+2023-10-10 11:59:29.594 [warning] Extension signature verification failed with error 'ENOENT': ms-azuretools.vscode-docker
+2023-10-10 11:59:29.781 [info] Extracted extension to file:///home/agu078/.vscode-server/extensions/ms-azuretools.vscode-docker-1.26.1: ms-azuretools.vscode-docker
+2023-10-10 11:59:29.788 [info] Renamed to /home/agu078/.vscode-server/extensions/ms-azuretools.vscode-docker-1.26.1
+2023-10-10 11:59:29.802 [info] Extracting extension completed. ms-azuretools.vscode-docker
+2023-10-10 11:59:29.807 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2023-10-10 11:59:29.816 [info] Getting Manifest... formulahendry.docker-explorer
+2023-10-10 11:59:29.948 [info] Installing extension: formulahendry.docker-explorer
+2023-10-10 11:59:30.654 [warning] Extension signature verification failed with error 'ENOENT': formulahendry.docker-explorer
+2023-10-10 11:59:30.890 [info] Extracted extension to file:///home/agu078/.vscode-server/extensions/formulahendry.docker-explorer-0.1.7: formulahendry.docker-explorer
+2023-10-10 11:59:30.892 [info] Renamed to /home/agu078/.vscode-server/extensions/formulahendry.docker-explorer-0.1.7
+2023-10-10 11:59:30.893 [info] Extracting extension completed. formulahendry.docker-explorer
+2023-10-10 11:59:30.896 [info] Extension installed successfully: formulahendry.docker-explorer
+2023-10-10 15:19:04.179 [info] [127.0.0.1][b530c826][ExtensionHostConnection] <2011086> Extension Host Process exited with code: 0, signal: null.
+2023-10-10 15:19:04.181 [info] Last EH closed, waiting before shutting down
+2023-10-10 15:24:04.182 [info] Last EH closed, shutting down
