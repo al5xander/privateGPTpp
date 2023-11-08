@@ -1,4 +1,4 @@
-FROM al5xander/privateGPTpp as Base
+FROM al5xander/privategptpp as Base
 
 EXPOSE 1234
 
