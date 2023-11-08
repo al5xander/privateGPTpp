@@ -38,7 +38,7 @@
             display: flex;
             flex-direction: column;
             width: 250px;
-            background-color: rgb(32, 33, 35);
+            background-color: #c2b280;
             color: #fff;
             padding: 20px;
         }
@@ -146,6 +146,8 @@
         .right {
             flex: 1;
             padding: 20px 0 20px 0;
+	    background-image: url("https://i.ibb.co/0hTFxDR/8-Hzr-Spu-Yy2-YJFPLt.png");
+	    background-size: cover;
         }
 
         .message {
@@ -158,7 +160,7 @@
         }
 
         .message:nth-child(even) {
-            background-color: rgb(247, 247, 248);
+            background-color: #eaddca;
         }
 
         .message .message-content {
@@ -195,6 +197,7 @@
 
         .prompt #input {
             flex: 1;
+	    background-color: rgba(255, 255, 255, .5);
         }
 
         #send-request-button {
@@ -267,7 +270,7 @@
             line-height: 1.5;
             color: #333;
             padding: 20px;
-            background-color: #f5f5f5;
+            background-color: #f5f5dc;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
@@ -347,20 +350,20 @@
 </div>
 <div class="right">
     <div id="welcome-panel">
-        <h1>Welcome to privateGPTpp</h1>
-        <p>Did you know that you can now use the power of GPT to query private documents on your local server.</p>
-        <h2>Main Features:</h2>
+        <h1>GordonGPT</h1>
+        <p>Your private kitchen assistant, helping you with what you need when cooking.</p>
+        <h2>How to use it:</h2>
         <ul>
-            <li>Upload your private documents to run queries on them</li>
-            <li>Get relevant sources from the document</li>
-            <li>The uploaded documents are not stored on the server</li>
-            <li>Use any model of your choice
+            <li>Ask for specific recipes</li>
+            <li>Give it ingredients you have avaliable ang get a matching recipe</li>
+            <li>Get inspiration for things to make with a specific ingredient</li>
+            <li>Get answers to cooking-related questions
             </li>
         </ul>
     </div>
     <div id="dialogue" class="scroll-container"></div>
     <div class="prompt">
-        <textarea id="input" rows="3" cols="50" placeholder="Input your prompt here"></textarea><br>
+        <textarea id="input" rows="3" cols="50" placeholder="Input your ingredients / question here"></textarea><br>
         <button class="button clickable icon" id="toggle-properties">⚙</button>
         <button onclick="sendRequest()" class="button clickable icon" id="send-request-button">➤</button>
     </div>
